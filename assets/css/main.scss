@@ -17,3 +17,51 @@
 
 // 5 - Import layout  styles
 @import '5-layout/index';
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+	font-family: "Lato";
+}
+
+.quad1{
+	background-image:url("../img/Nuvem_Alto_Funcionalidades.png"), url("../img/camada_1.jpg");
+	background-size: cover;
+}
+
+.quad3{
+	background-image: url("../img/camada_2.jpg");
+	background-size: cover;
+}
+
+.quad6{
+	background-image: url("../img/camada_3.jpg");
+	background-size: cover;
+	background-position: top;
+}
+
+.logoTopo{
+	max-width:300px;
+	max-height:250px;
+	width: auto;
+	height: auto;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.decole-com{
+	padding-left: 50px;
+	padding-top: 20px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.conheca-a{
+	padding-left: 10px;
+	font-size: 10px;
+}
+
+#campo_comentario{
+	height: 200px;
+}
