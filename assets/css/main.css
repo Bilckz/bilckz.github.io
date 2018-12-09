@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">');
 *,
 *::before,
 *::after {
@@ -7751,11 +7751,17 @@ html {
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
 body {
-  font-family: "Lato"; }
+  font-family: 'Lato', sans-serif; }
 
 .quad1 {
   background-image: url("../img/Nuvem_Alto_Funcionalidades.png"), url("../img/camada_1.jpg");
-  background-size: cover; }
+  background-size: cover;
+  color: white;
+  padding-left: 50px; }
+
+.quad2 {
+  color: #245377;
+  text-align: center; }
 
 .quad3 {
   background-image: url("../img/camada_2.jpg");
@@ -7763,27 +7769,78 @@ body {
 
 .quad6 {
   background-image: url("../img/camada_3.jpg");
-  background-size: cover;
-  background-position: top; }
+  background-size: cover; }
+
+nav {
+  float: right; }
+
+a {
+  padding-right: 350px; }
 
 .logoTopo {
   max-width: 300px;
   max-height: 250px;
   width: auto;
   height: auto;
-  padding-left: 50px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  border-spacing: none; }
 
 .decole-com {
-  padding-left: 50px;
-  padding-top: 20px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase; }
+  font-weight: 725;
+  text-transform: uppercase;
+  padding-top: 100px;
+  font-size: 60px; }
 
 .conheca-a {
-  padding-left: 10px;
-  font-size: 10px; }
+  font-size: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.botton-agora {
+  background: #02374c;
+  font-weight: bold;
+  font-size: 25px;
+  color: #12bbb7;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block; }
+
+.teste-gra {
+  padding-top: 100px;
+  text-transform: uppercase;
+  font-weight: lighter; }
+
+.iphone-1 {
+  padding-top: 100px; }
+
+.nuvem, .onda {
+  width: 100%;
+  height: 100%; }
+
+.funcionalidade {
+  padding-top: 25px;
+  font-size: 50px; }
+
+.quad2 .row {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 0px; }
+
+.quad2 .col {
+  padding: 50px; }
+
+.txt-func {
+  font-size: 20px; }
+
+.tit-func {
+  font-size: 30px; }
+
+.cel_rodape {
+  text-align: center; }
+
+.persona {
+  text-align: center; }
 
 #campo_comentario {
   height: 200px; }
