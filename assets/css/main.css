@@ -7754,7 +7754,7 @@ body {
   font-family: 'Lato', sans-serif; }
 
 .quad1 {
-  background-image: url("../img/Nuvem_Alto_Funcionalidades.png"), url("../img/camada_1.jpg");
+  background-image: url("../img/camada_1.jpg");
   background-size: cover;
   color: white;
   padding-left: 50px; }
